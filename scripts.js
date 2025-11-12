@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Add your JavaScript to this file */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -28,3 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+=======
+/* Add your JavaScript to this file */
+>>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
