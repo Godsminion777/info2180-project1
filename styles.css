@@ -7,7 +7,14 @@ body {
         Arial, "Noto Sans", sans-serif; 
     line-height: 1.6;
 =======
+<<<<<<< HEAD
+    font-size: 18px; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+        Arial, "Noto Sans", sans-serif; 
+    line-height: 1.6;
+=======
     font-size: 16px;
+>>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
 >>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
 }
 
@@ -15,6 +22,224 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+<<<<<<< HEAD
+}
+
+/* Header */
+header {
+    padding: 10px 0;
+    background-color: white; 
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px; 
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    margin-left: 20px; 
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px; 
+    color: #6b7280; 
+}
+
+header nav a:hover {
+    color: #5a67d8; 
+}
+
+/* General Section Spacing */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Overview Hero Section */
+.overview-hero {
+    background-color: #e2e8f0; 
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+
+.overview-hero-image,
+.overview-hero-text {
+    flex: 1; /* Each takes up half the space */
+}
+
+.overview-hero-image img {
+    width: 100%;
+    max-width: 400px; /* Prevents image from being too large */
+}
+
+/* Learn About Section */
+.learn-about h2 {
+    font-size: 24px; 
+    color: #48bb78; 
+}
+
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px; 
+}
+
+.learn-about .card {
+    border: 1px solid #e2e8f0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+    border-radius: 5px; 
+    overflow: hidden; /* Ensures image corners are rounded */
+}
+
+.learn-about .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures images are same size */
+}
+
+.learn-about .card-body {
+    padding: 20px;
+}
+
+.learn-about .card-body h3 {
+    margin-top: 0;
+    color: #48bb78; 
+    font-size: 21px; 
+}
+
+/* Testing Section */
+.testing {
+    background-color: #4a5568; 
+    color: white; 
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.testing-desciption {
+    flex: 2; /* Takes up more space */
+}
+
+.testing .cta {
+    flex: 1; /* Takes up less space */
+    text-align: right;
+}
+
+/* General Button - overridden by specific sections */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.testing .btn {
+    background-color: #48bb78; 
+    border-radius: 5px; 
+}
+
+/* Stories Section */
+.stories h2 {
+    color: #5a67d8; 
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 30px; /* Space between image and text */
+    margin-bottom: 30px; /* Space between articles */
+}
+
+.stories article img {
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; /* Ensures image covers area without distortion */
+    border-radius: 50%; 
+}
+
+.stories .article-body {
+    flex: 1;
+}
+
+.stories .article-body h3 {
+    margin-top: 0;
+    font-size: 18px; 
+}
+
+.stories .article-body a {
+    color: #5a67d8; 
+}
+
+/* Newsletter Section */
+.newsletter {
+    background-color: #48bb78; 
+    color: white; 
+    text-align: center; 
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.newsletter .form-group {
+    flex: 1; /* Allows input to grow */
+    max-width: 350px; 
+}
+
+.newsletter input[type="email"] {
+    width: 100%; 
+    padding: 12px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.newsletter .btn {
+    background-color: #5a67d8; 
+}
+
+/* Footer */
+footer {
+    background-color: #4a5568; 
+    color: white; 
+    padding: 20px 0;
+    text-align: center;
+=======
+>>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
 <<<<<<< HEAD
 }
 
