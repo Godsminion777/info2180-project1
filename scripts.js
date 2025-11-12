@@ -1,6 +1,12 @@
 <<<<<<< HEAD
 /* Add your JavaScript to this file */
 
+
+=======
+<<<<<<< HEAD
+/* Add your JavaScript to this file */
+
+>>>>>>> landing-page-implementation
 document.addEventListener('DOMContentLoaded', function() {
     
     // Select the form, the email input field, and the message div
@@ -16,6 +22,21 @@ document.addEventListener('DOMContentLoaded', function() {
         // Get the value from the email input field and trim whitespace
         const emailValue = emailInput.value.trim();
 
+<<<<<<< HEAD
+        
+        if (emailValue === '') {
+            
+            messageDiv.textContent = 'Please enter a valid email address.';
+        } else {
+            
+            messageDiv.innerHTML = 'Thank you! Your email address <strong>' + emailValue + '</strong> has been added to our mailing list!';
+            
+            // Clear the input field after successful submission
+            emailInput.value = '';
+        }
+    });
+});
+=======
         // Check if the email field is empty
         if (emailValue === '') {
             // Display the error message if no email is entered
@@ -66,3 +87,4 @@ document.addEventListener('DOMContentLoaded', function() {
 >>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
 
 >>>>>>> 523d8fd63b68f64377e732c26c02c51ecc04c3dd
+>>>>>>> landing-page-implementation
